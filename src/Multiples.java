@@ -4,7 +4,6 @@ public class Multiples {
         int count=0;
         while(i<1000){
             if (i%3==0 || i%5==0){
-                System.out.println(i);
                 count++;
             }
             i++;
